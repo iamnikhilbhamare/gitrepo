@@ -1,0 +1,54 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background and base font */
+body {
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    background: linear-gradient(135deg, #f4f6f8, #e9eef3);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main content container */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    max-width: 700px;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 4px solid #3498db;
+    background-color: #f8fbff;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+/* Subtle hover effect on paragraphs */
+p:hover {
+    background-color: #eef6ff;
+    transform: translateX(4px);
+    transition: all 0.2s ease-in-out;
+}
